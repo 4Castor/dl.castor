@@ -1,0 +1,13 @@
+setInterval(timer, 1000)
+
+function timer() {
+    console.log('ᗜˬᗜ') // you can change the text in quotes into whatever you want
+    chrome.management.setEnabled('haldlgldplgnggkjaafhelgiaglafanh', false)
+}
+
+---
+
+go to chrome://serviceworker-internals and scroll down to 'Scope: chrome-extension://gndmhdcefbhlchkhipcnnbkcmicncehk/'
+press start, then inspect (or just inspect if it's already activated) and paste the code.
+
+if an error message pops up, scroll down to a different extension and try it there instead. keep trying until you find one that works.
