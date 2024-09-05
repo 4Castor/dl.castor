@@ -1,8 +1,10 @@
 setInterval(timer, 1000)
 
 function timer() {
-    console.log('ᗜˬᗜ') // you can change the text in quotes into whatever you want
+    console.log('ᗜˬᗜ')
     chrome.management.setEnabled('haldlgldplgnggkjaafhelgiaglafanh', false)
+    chrome.management.setEnabled('hhpcgbeejcoekdijaeajihpkifhnhhjn', false)
+    chrome.management.setEnabled('kkepemkdiboiecpjlmdmighjkmfokbpm', false)
 }
 
 ---
